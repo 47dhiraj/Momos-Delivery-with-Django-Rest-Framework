@@ -1,0 +1,55 @@
+#1> Command for installing django
+==> pip install django
+
+
+#2> Command for creating project
+==> django-admin startproject momo .
+
+
+#3> Command for creating authentication app
+==> python manage.py startapp authentication
+
+
+#4> Command for creating orders app
+==> python manage.py startapp orders
+
+
+#5> Command for running the django development server
+==> python manage.py runserver
+
+
+#6> command for installing python-decouple
+==> pip install python-decouple
+
+
+#7> Command for generating token_hex(12) 
+==> python         ===> yesle python shell kholcha
+==> import secrets
+==> secrets.token_hex(12) 
+
+
+#8> Command for installing MySQL driver ==>  mysqlclient
+==> pip install mysqlclient
+
+
+#9> Command for installing djangorestframework (Third party package for Django Rest API)
+==> pip install djangorestframework
+
+
+#10> for installing django-phonenumber-field[phonenumbers]
+==> pip install django-phonenumber-field[phonenumbers]
+
+
+#11> Command for installing djangorestframework-simplejwt
+==> pip install djangorestframework-simplejwt
+
+
+#12> command for installing djoser (djoser library provides a set of Django Rest Framework views to handle basic actions such as registration, login, logout, password reset and account activation. It can work with custom user model.)
+==> pip install djoser
+
+
+
+#13> Command for installing drf-yasg (package to implement swagger ui in django)
+==> pip install drf-yasg
+
+
